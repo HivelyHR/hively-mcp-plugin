@@ -13,6 +13,8 @@
     "developerName": "Hively",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
-    "defaultPrompt": "Help me with my Hively workspace."
+    "defaultPrompt": "Help me with my Hively workspace.",
+    "composerIcon": "./assets/hively-marketplace.png",
+    "logo": "./assets/hively-marketplace.png"
   }
 }
