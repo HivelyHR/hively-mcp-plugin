@@ -1,8 +1,12 @@
 {
   "name": "hively",
   "version": "1.0.0",
-  "description": "Read your Hively workspace and prepare confirmed changes.",
+  "description": "Read your Hively workspace and prepare changes for confirmation.",
   "author": { "name": "Hively" },
+  "logo": "assets/hively-logo.png",
+  "homepage": "https://hivelyhr.com",
+  "repository": "https://github.com/HivelyHR/hively-mcp-plugin",
+  "keywords": ["hively", "hr", "mcp"],
   "variables": {
     "type": "object",
     "properties": {

@@ -38,3 +38,9 @@ Set `HIVELY_MCP_TOKEN` in the environment that launches Codex. Run `codex mcp li
 ## Tools
 
 `whoami`, `search_actions`, `describe_action`, `read_action`, `propose_action`, and `proposal_status`. A proposed write remains pending until the person confirms it in Hively. Read and write permissions are enforced by the application's existing assistant action service.
+
+## Privacy and support
+
+The connected assistant can request the Hively data the signed-in person is permitted to access, including employee information. Hively does not send data to the assistant until it calls a tool. Connection tokens belong to one Hively user, expire after 90 days, and can be revoked in Hively. Changes require a separate confirmation inside Hively.
+
+[Privacy policy](https://hivelyhr.com/privacy-policy) · [Terms of service](https://hivelyhr.com/terms-of-service) · [Support](https://hivelyhr.com/contact-us)
