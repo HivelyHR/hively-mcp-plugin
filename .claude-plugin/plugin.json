@@ -1,0 +1,22 @@
+{
+  "name": "hively",
+  "displayName": "Hively",
+  "version": "1.0.0",
+  "description": "Read your Hively workspace and prepare confirmed changes.",
+  "author": { "name": "Hively" },
+  "userConfig": {
+    "workspace_url": {
+      "type": "string",
+      "title": "Hively workspace URL",
+      "description": "Your workspace URL, for example https://your-team.hivelyhr.com",
+      "required": true
+    },
+    "token": {
+      "type": "string",
+      "title": "Hively connection token",
+      "description": "Create this token from Ask Buzz > Connect AI apps in Hively",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}

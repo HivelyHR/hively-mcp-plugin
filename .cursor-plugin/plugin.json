@@ -1,0 +1,22 @@
+{
+  "name": "hively",
+  "version": "1.0.0",
+  "description": "Read your Hively workspace and prepare confirmed changes.",
+  "author": { "name": "Hively" },
+  "variables": {
+    "type": "object",
+    "properties": {
+      "HIVELY_WORKSPACE_URL": {
+        "type": "string",
+        "title": "Hively workspace URL",
+        "description": "For example https://your-team.hivelyhr.com"
+      },
+      "HIVELY_MCP_TOKEN": {
+        "type": "string",
+        "title": "Hively connection token",
+        "description": "Create this token from Ask Buzz > Connect AI apps in Hively"
+      }
+    },
+    "required": ["HIVELY_WORKSPACE_URL", "HIVELY_MCP_TOKEN"]
+  }
+}

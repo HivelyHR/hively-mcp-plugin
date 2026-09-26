@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "hively": {
+      "type": "http",
+      "url": "${user_config.workspace_url}/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.token}"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "hively",
+  "version": "1.0.0",
+  "description": "Use your Hively workspace through its secure MCP server.",
+  "author": {
+    "name": "Hively"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Hively",
+    "shortDescription": "Search and act in your Hively workspace.",
+    "longDescription": "Connect your own Hively workspace, read live data, and prepare changes for confirmation inside Hively.",
+    "developerName": "Hively",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": "Help me with my Hively workspace."
+  }
+}

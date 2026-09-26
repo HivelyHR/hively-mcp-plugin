@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "hively": {
+      "url": "${HIVELY_WORKSPACE_URL}/mcp",
+      "headers": {
+        "Authorization": "Bearer ${HIVELY_MCP_TOKEN}"
+      }
+    }
+  }
+}

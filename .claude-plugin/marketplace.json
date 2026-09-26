@@ -1,0 +1,12 @@
+{
+  "name": "hively",
+  "description": "Connect Claude Code to your Hively workspace.",
+  "owner": { "name": "Hively" },
+  "plugins": [
+    {
+      "name": "hively",
+      "source": { "source": "github", "repo": "HivelyHR/hively-mcp-plugin" },
+      "description": "Read Hively data and prepare changes for confirmation."
+    }
+  ]
+}
